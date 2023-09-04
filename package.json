@@ -2,12 +2,7 @@
     "name": "basic-static-js-app",
     "main": "index.js",
     "scripts": {
-        "dev": "next dev",
-        "build": "next build && next export",
-        "start": "next start"
-    },
-    "devDependencies": {
-        "http-server": "^13.1.0"
+        "start": "gulp"
     },
     "dependencies": {
         "@azure/msal-browser": "^2.37.1",
