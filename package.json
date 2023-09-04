@@ -1,6 +1,9 @@
 {
     "name": "basic-static-js-app",
     "main": "index.js",
+    "engines": {
+        "node": ">=16.0.0 <18"
+    },
     "dependencies": {
         "@azure/msal-browser": "^2.37.1",
         "@microsoft/microsoft-graph-client": "^3.0.5",
