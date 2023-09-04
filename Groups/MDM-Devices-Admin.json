@@ -1,0 +1,51 @@
+{
+    "id": "ed39cd73-532c-481f-96e7-39cfbfc739ee",
+    "deletedDateTime": null,
+    "classification": null,
+    "createdDateTime": "2022-03-17T15:57:03Z",
+    "organizationId": "20f13a0c-0174-400f-a155-84c88aba4c99",
+    "description": null,
+    "displayName": "MDM-Devices-Admin",
+    "expirationDateTime": null,
+    "groupTypes": [
+        "DynamicMembership"
+    ],
+    "infoCatalogs": [
+
+    ],
+    "isAssignableToRole": null,
+    "isManagementRestricted": null,
+    "mail": null,
+    "mailEnabled": false,
+    "mailNickname": "e040ca8f-f",
+    "membershipRule": "(device.devicePhysicalIds -any _ -eq \"[OrderID]:Admin\")",
+    "membershipRuleProcessingState": "On",
+    "onPremisesDomainName": null,
+    "onPremisesLastSyncDateTime": null,
+    "onPremisesNetBiosName": null,
+    "onPremisesSamAccountName": null,
+    "onPremisesSecurityIdentifier": null,
+    "onPremisesSyncEnabled": null,
+    "preferredDataLocation": null,
+    "preferredLanguage": null,
+    "proxyAddresses": [
+
+    ],
+    "resourceBehaviorOptions": [
+
+    ],
+    "resourceProvisioningOptions": [
+
+    ],
+    "securityEnabled": true,
+    "securityIdentifier": "S-1-12-1-3979988339-1210012460-3476678550-3996764095",
+    "theme": null,
+    "visibility": null,
+    "writebackConfiguration": {
+        "isEnabled": null,
+        "onPremisesGroupType": null
+    },
+    "onPremisesProvisioningErrors": [
+
+    ]
+}

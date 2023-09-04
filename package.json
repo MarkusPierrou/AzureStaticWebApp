@@ -1,0 +1,15 @@
+{
+    "name": "basic-static-js-app",
+    "main": "index.js",
+    "scripts": {
+        "start": "http-server --cors"
+    },
+    "devDependencies": {
+        "http-server": "^13.1.0"
+    },
+    "dependencies": {
+        "@azure/msal-browser": "^2.37.1",
+        "@microsoft/microsoft-graph-client": "^3.0.5",
+        "nodemon": "^2.0.22"
+    }
+}

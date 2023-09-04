@@ -1,0 +1,12 @@
+{
+    "groupTypes": [
+        "DynamicMembership"
+    ],
+    "membershipRuleProcessingState": "On",
+    "displayName": "MDM-Devices-IOS",
+    "mailEnabled": false,
+    "description": "All MDM managed IOS devices",
+    "securityEnabled": true,
+    "mailNickname": "MDM-Devices-IOS",
+    "membershipRule": "(device.deviceOSType -startsWith \"iPhone\") -and (device.managementType -eq \"MDM\")"
+}

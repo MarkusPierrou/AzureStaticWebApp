@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://unpkg.com/bootstrap@5/dist/css/bootstrap.css" rel="stylesheet" crossorigin>
+    <link href="https://unpkg.com/font-awesome@4.7/css/font-awesome.css" rel="stylesheet" crossorigin>
+    <script type="text/javascript" src="https://alcdn.msauth.net/browser/2.37.0/js/msal-browser.min.js"></script>
+    <script src="https://unpkg.com/@microsoft/microsoft-graph-client@3.0.5/lib/graph-js-sdk.js" crossorigin></script>
+    <script src="https://unpkg.com/@microsoft/microsoft-graph-client@3.0.5/lib/graph-client-msalBrowserAuthProvider.js" crossorigin></script>
+    <title>
+        Node + Bootstrap Application
+    </title>
+</head>
+
+<body>
+    <nav class="navbar navbar-dark bg-primary mb-2">
+        <div class="container-fluid">
+            <span class="navbar-brand" href="#">
+                    Node + Bootstrap Application
+                </span>
+        </div>
+    </nav>
+    <main class="container d-grid gap-2">
+        <button type="button" id="Connect" class="btn btn-primary btn-lg" onclick="run()">
+                <i class="fa fa-fw fa-inverse fa-play"></i>
+                Connect
+            </button>
+        <button type="button" id="Import" class="btn btn-primary btn-lg">
+                <i class="fa fa-fw fa-inverse fa-play"></i>
+                Import
+            </button>
+        <button type="button" id="Import" class="btn btn-primary btn-lg">
+                <i class="fa fa-fw fa-inverse fa-play"></i>
+                Import3
+            </button>
+        <button type="button" id="Assign" class="btn btn-primary btn-lg">
+                <i class="fa fa-fw fa-inverse fa-play"></i>
+                Assign
+            </button>
+
+        <h3>List Powershell scripts</h3>
+        <ul id="listContainer"></ul>
+    </main>
+    <script src="index.js?t=1693853868961"></script>
+
+</body>
+
+</html>

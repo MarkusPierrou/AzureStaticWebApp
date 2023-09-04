@@ -1,0 +1,12 @@
+{
+    "groupTypes": [
+        "DynamicMembership"
+    ],
+    "membershipRuleProcessingState": "On",
+    "displayName": "MDM-Devices-Android",
+    "mailEnabled": false,
+    "description": "All MDM managed Android devices",
+    "securityEnabled": true,
+    "mailNickname": "MDM-Devices-Android",
+    "membershipRule": "(device.deviceOSType -startsWith \"Android\") -and (device.managementType -eq \"MDM\")"
+}
